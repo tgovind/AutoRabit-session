@@ -51,7 +51,7 @@ public with sharing class Account_TerritoryMapHelper {
             }
         }
         territoryList = [select id,Geo_level_0__c,Territory_Name__c,Geo_Level_1__c,Geo_Level_2__c,Geo_Level_3__c,Geo_Level_4__c from Territory_Mapping__c where Geo_level_0__c IN : zipCodeList];
-        
+        //github comments
         for(Account accnt : accountList){
             zipTerritoryMap.clear();
         	for(Territory_Mapping__c tMap:territoryList)
