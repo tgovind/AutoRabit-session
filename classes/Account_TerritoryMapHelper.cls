@@ -17,7 +17,7 @@ public with sharing class Account_TerritoryMapHelper {
     public static Map<String,String>accZipMap=new Map<String,String>();
     public static List<Account_Territory_Map__c>AccTerritoryList=new List<Account_Territory_Map__c>();
     public int a = 20;
-    
+    public int b = 20;
     /**
     * @description :This method is called from the trigger after  any new account is created.
       Based on the zip code value for the Account, it creates the  related "AccountTerritory" record.
