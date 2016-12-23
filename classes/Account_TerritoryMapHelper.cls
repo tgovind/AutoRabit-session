@@ -16,6 +16,7 @@ public with sharing class Account_TerritoryMapHelper {
     public static Map<String,List<Territory_Mapping__c>> zipTerritoryMap=new Map<String, List<Territory_Mapping__c>>();
     public static Map<String,String>accZipMap=new Map<String,String>();
     public static List<Account_Territory_Map__c>AccTerritoryList=new List<Account_Territory_Map__c>();
+    public int a = 20;
     
     /**
     * @description :This method is called from the trigger after  any new account is created.
