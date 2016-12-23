@@ -197,7 +197,8 @@ public with sharing class Account_TerritoryMapHelper {
             }
         }
         catch(DMLException exe)
-        {
+        // github commetns 2
+	{
             Database.rollback(spDelIns);
             System.debug('Error Occured while updating/Deleting Account Territory in Account_TerritoryMapHelper class :'+exe.getMessage());
             for(Account_Territory_Map__c accTerritory : AccTerritoryList )
